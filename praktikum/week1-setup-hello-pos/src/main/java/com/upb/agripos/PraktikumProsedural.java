@@ -2,7 +2,7 @@ public class PraktikumProsedural {
    public static void main(String[] args) {
       String nim = "240320561";
       String nama = "Azzahra Ramadhani";
-      String[] produk = {"Pasta Gigi Cipta 15gr", "Sabun Cuci 200gr", "Potato Snack 320gr"};
+      String[] produk = {"Beras", "Pupuk", "Benih"};
       double[] harga = {10000, 22500, 14000};
       int total = 0;
       System.out.println("Hello World, I am " + nama + " | NIM: " + nim);
