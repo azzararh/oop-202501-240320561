@@ -1,4 +1,4 @@
-# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
+# Laporan Praktikum Minggu 2 (sesuaikan minggu ke berapa?)
 Topik: Class dan Object
 
 ## Identitas
@@ -73,12 +73,12 @@ public class Produk {
 
 ---
 
-## Hasil Eksekusi
+**## Hasil Eksekusi**
 (<Screenshot (614).png>)
 
 ---
 
-## Analisis
+**## Analisis**
 - Jelaskan bagaimana kode berjalan.  
  Program ini dibuat untuk menampilkan data produk pertanian menggunakan pendekatan berorientasi objek (OOP). Pertama, program mengimpor dua class lain yaitu Produk dari folder model dan CreditBy dari folder util. Class Produk berisi data dan fungsi yang menggambarkan satu produk pertanian, seperti kode, nama, harga, dan stok. Sementara CreditBy digunakan untuk menampilkan identitas pembuat program (nama dan NIM). Di dalam method main, program membuat tiga objek produk dengan cara memanggil konstruktor new Produk(...). Masing-masing produk punya informasi yang berbeda — misalnya Benih Padi IR64, Pupuk Urea 50kg, dan Cangkul Baja. Setelah itu, program menampilkan semua data produk ke layar menggunakan System.out.println. Selanjutnya, program melakukan perubahan stok: p1.kurangiStok(25) → mengurangi stok produk pertama sebanyak 25, p2.kurangiStok(5) → mengurangi stok produk kedua sebanyak 5, p3.tambahStok(10) → menambah stok produk ketiga sebanyak 10. Kemudian program mencetak ulang data produk setelah stok diperbarui agar terlihat perbedaannya. Terakhir, method CreditBy.print("Azzahra Ramadhani", "240320561") dipanggil untuk menampilkan identitas pembuat program sebagai penutup output.
 - Apa perbedaan pendekatan minggu ini dibanding minggu sebelumnya.  
@@ -86,12 +86,12 @@ public class Produk {
 
 ---
 
-## Kesimpulan
+**## Kesimpulan**
 Dengan menggunakan class dan object pada praktikum minggu ini, program menjadi lebih terstruktur, mudah dipahami, dan efisien dalam pengelolaan data. Setiap objek memiliki atribut dan perilaku sendiri, sehingga perubahan pada satu bagian tidak memengaruhi bagian lainnya. Selain itu, konsep OOP ini membuat program lebih fleksibel dan mudah dikembangkan untuk kebutuhan yang lebih kompleks di masa mendatang.
 
 ---
 
-## Quiz
+**## Quiz**
 1. Mengapa atribut sebaiknya dideklarasikan sebagai private dalam class?
 
 Jawaban: Atribut sebaiknya dideklarasikan sebagai private dalam class karena tujuannya untuk melindungi data (data enkapsulasi). Dengan menjadikannya private, atribut hanya bisa diakses dan diubah melalui method khusus (getter dan setter). Hal ini mencegah kode lain secara langsung mengubah data tanpa kendali, yang bisa menyebabkan kesalahan atau inkonsistensi data. Selain itu, cara ini membuat program lebih aman, rapi, dan mudah dipelihara, karena pengembang bisa mengatur bagaimana data diakses dan dimodifikasi tanpa harus mengubah bagian lain dari program.
