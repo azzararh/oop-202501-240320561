@@ -74,7 +74,8 @@ public class Produk {
 ---
 
 ## Hasil Eksekusi
-(<Screenshot (614).png>)
+<img width="1920" height="1080" alt="Screenshot (614)" src="https://github.com/user-attachments/assets/e09fd3fd-f237-4a3e-a8cc-c6866d909471" />
+
 
 ---
 
