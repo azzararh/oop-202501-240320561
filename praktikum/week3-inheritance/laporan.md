@@ -1,16 +1,19 @@
 # Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
-Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
+Topik: [Inheitance]
 
 ## Identitas
-- Nama  : [Nama Mahasiswa]
-- NIM   : [NIM Mahasiswa]
-- Kelas : [Kelas]
+- Nama  : [Azzahra Ramadhani]
+- NIM   : [240320561]
+- Kelas : [3DSRA]
 
 ---
 
 ## Tujuan
-(Tuliskan tujuan praktikum minggu ini.  
-Contoh: *Mahasiswa memahami konsep class dan object serta dapat membuat class Produk dengan enkapsulasi.*)
+Mahasiswa mampu menjelaskan konsep inheritance (pewarisan class) dalam OOP.
+Mahasiswa mampu membuat superclass dan subclass untuk produk pertanian.
+Mahasiswa mampu mendemonstrasikan hierarki class melalui contoh kode.
+Mahasiswa mampu menggunakan super untuk memanggil konstruktor dan method parent class.
+Mahasiswa mampu membuat laporan praktikum yang menjelaskan perbedaan penggunaan inheritance dibanding class tunggal.
 
 ---
 
