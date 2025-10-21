@@ -1,4 +1,4 @@
-# Laporan Praktikum Minggu 2 (sesuaikan minggu ke berapa?)
+# Laporan Praktikum Minggu 2 
 Topik: Class dan Object
 
 ## Identitas
@@ -69,7 +69,7 @@ public class Produk {
         } else {
             System.out.println("Stok tidak mencukupi!");
         }
-
+```
 
 ---
 
