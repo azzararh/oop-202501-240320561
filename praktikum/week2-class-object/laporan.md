@@ -1,5 +1,5 @@
-# Laporan Praktikum Minggu 2 
-Topik: Class dan Object
+# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
+Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
 
 ## Identitas
 - Nama  : [Azzahra Ramadhani]
@@ -9,11 +9,8 @@ Topik: Class dan Object
 ---
 
 ## Tujuan
-Mahasiswa mampu menjelaskan konsep class, object, atribut, dan method dalam OOP.
-Mahasiswa mampu menerapkan access modifier dan enkapsulasi dalam pembuatan class.
-Mahasiswa mampu mengimplementasikan class Produk pertanian dengan atribut dan method yang sesuai.
-Mahasiswa mampu mendemonstrasikan instansiasi object serta menampilkan data produk pertanian di console.
-Mahasiswa mampu menyusun laporan praktikum dengan bukti kode, hasil eksekusi, dan analisis sederhana.
+(Tuliskan tujuan praktikum minggu ini.  
+Contoh: *Mahasiswa memahami konsep class dan object serta dapat membuat class Produk dengan enkapsulasi.*)
 
 ---
 
@@ -34,49 +31,17 @@ Mahasiswa mampu menyusun laporan praktikum dengan bukti kode, hasil eksekusi, da
 ## Kode Program 
 
 ```java
-public class Produk {
-    private String kode;
-    private String nama;
-    private double harga;
-    private int stok;
-
-    public Produk(String kode, String nama, double harga, int stok) {
-        this.kode = kode;
-        this.nama = nama;
-        this.harga = harga;
-        this.stok = stok;
-    }
-
-    public String getKode() { return kode; }
-    public void setKode(String kode) { this.kode = kode; }
-
-    public String getNama() { return nama; }
-    public void setNama(String nama) { this.nama = nama; }
-
-    public double getHarga() { return harga; }
-    public void setHarga(double harga) { this.harga = harga; }
-
-    public int getStok() { return stok; }
-    public void setStok(int stok) { this.stok = stok; }
-
-    public void tambahStok(int jumlah) {
-        this.stok += jumlah;
-    }
-
-    public void kurangiStok(int jumlah) {
-        if (this.stok >= jumlah) {
-            this.stok -= jumlah;
-        } else {
-            System.out.println("Stok tidak mencukupi!");
-        }
+// Contoh
+Produk p1 = new Produk("BNH-001", "Benih Padi", 25000, 100);
+System.out.println(p1.getNama());
 ```
-
+)
 ---
 
 ## Hasil Eksekusi
-<img width="1920" height="1080" alt="Screenshot (614)" src="https://github.com/user-attachments/assets/e09fd3fd-f237-4a3e-a8cc-c6866d909471" />
-
-
+(Sertakan screenshot hasil eksekusi program.  
+![Screenshot hasil](screenshots/hasil.png)
+)
 ---
 
 ## Analisis
@@ -93,14 +58,11 @@ Dengan menggunakan class dan object pada praktikum minggu ini, program menjadi l
 ---
 
 ## Quiz
-1. Mengapa atribut sebaiknya dideklarasikan sebagai private dalam class?
+(1. [Tuliskan kembali pertanyaan 1 dari panduan]  
+   **Jawaban:** …  
 
-Jawaban: Atribut sebaiknya dideklarasikan sebagai private dalam class karena tujuannya untuk melindungi data (data enkapsulasi). Dengan menjadikannya private, atribut hanya bisa diakses dan diubah melalui method khusus (getter dan setter). Hal ini mencegah kode lain secara langsung mengubah data tanpa kendali, yang bisa menyebabkan kesalahan atau inkonsistensi data. Selain itu, cara ini membuat program lebih aman, rapi, dan mudah dipelihara, karena pengembang bisa mengatur bagaimana data diakses dan dimodifikasi tanpa harus mengubah bagian lain dari program.
+2. [Tuliskan kembali pertanyaan 2 dari panduan]  
+   **Jawaban:** …  
 
-2. Apa fungsi getter dan setter dalam enkapsulasi?
-
-Jawaban: Fungsi getter dan setter dalam enkapsulasi adalah untuk mengatur akses ke atribut yang bersifat private di dalam class. Getter berfungsi untuk mengambil atau menampilkan nilai dari atribut private. Setter berfungsi untuk mengubah atau menetapkan nilai baru pada atribut tersebut. Dengan cara ini, data di dalam class tetap terlindungi, tapi masih bisa diakses dan diubah secara terkendali. Jadi, getter dan setter membantu menjaga keamanan data sambil tetap memberikan fleksibilitas dalam penggunaannya.
-
-3. Bagaimana cara class Produk mendukung pengembangan aplikasi POS yang lebih kompleks?
-
-Jawaban: Class Produk bisa mendukung pengembangan aplikasi POS (Point of Sale) yang lebih kompleks karena menjadi pondasi utama untuk mengelola data produk di dalam sistem.Dengan class ini, setiap produk memiliki atribut dan perilaku sendiri, seperti kode, nama, harga, dan stok, serta method untuk menambah atau mengurangi stok. Hal ini membuat pengelolaan data menjadi lebih terstruktur dan mudah dikembangkan Misalnya, nanti saat aplikasi POS dikembangkan lebih lanjut, class Produk bisa dengan mudah diperluas untuk menambahkan fitur seperti kategori produk, diskon, pajak, atau integrasi dengan database dan transaksi penjualan. Jadi, class ini membantu sistem POS menjadi modular, mudah dirawat, dan siap dikembangkan lebih lanjut tanpa harus mengubah struktur dasar program.
+3. [Tuliskan kembali pertanyaan 3 dari panduan]  
+   **Jawaban:** …  )

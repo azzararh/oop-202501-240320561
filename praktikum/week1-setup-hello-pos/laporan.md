@@ -1,4 +1,4 @@
-# Laporan Praktikum Minggu 1 
+# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
 Topik: PARADIGMA
 
 ## Identitas

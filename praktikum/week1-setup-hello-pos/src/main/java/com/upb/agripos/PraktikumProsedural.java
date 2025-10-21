@@ -2,8 +2,8 @@ public class PraktikumProsedural {
    public static void main(String[] args) {
       String nim = "240320561";
       String nama = "Azzahra Ramadhani";
-      String[] produk = {"Beras", "Pupuk", "Benih"};
-      double[] harga = {10000, 22500, 14000};
+      String[] produk = {"Pupuk NPK Phonska", "Benih Jagung Hibrida Bhayangkara", "Masako"};
+      double[] harga = {70000, 94350, 14000};
       int total = 0;
       System.out.println("Hello World, I am " + nama + " | NIM: " + nim);
       System.out.println("Daftar Produk:");
