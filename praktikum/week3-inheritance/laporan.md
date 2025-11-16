@@ -18,19 +18,35 @@ Mahasiswa mampu membuat laporan praktikum yang menjelaskan perbedaan penggunaan 
 ---
 
 ## Dasar Teori
-(Tuliskan ringkasan teori singkat (3–5 poin) yang mendasari praktikum.  
-Contoh:  
-1. Class adalah blueprint dari objek.  
-2. Object adalah instansiasi dari class.  
-3. Enkapsulasi digunakan untuk menyembunyikan data.)
+Inheritance adalah mekanisme dalam OOP yang memungkinkan suatu class mewarisi atribut dan method dari class lain.
+
+Superclass: class induk yang mendefinisikan atribut umum.
+Subclass: class turunan yang mewarisi atribut/method superclass, dan dapat menambahkan atribut/method baru.
+super digunakan untuk memanggil konstruktor atau method superclass.
+Dalam konteks Agri-POS, kita dapat membuat class Produk sebagai superclass, kemudian Benih, Pupuk, dan AlatPertanian sebagai subclass. Hal ini membuat kode lebih reusable dan terstruktur.
 
 ---
 
 ## Langkah Praktikum
-(Tuliskan Langkah-langkah dalam prakrikum, contoh:
-1. Langkah-langkah yang dilakukan (setup, coding, run).  
-2. File/kode yang dibuat.  
-3. Commit message yang digunakan.)
+
+Membuat Superclass Produk
+
+Gunakan class Produk dari Bab 2 sebagai superclass.
+Membuat Subclass
+
+Benih.java → atribut tambahan: varietas.
+Pupuk.java → atribut tambahan: jenis pupuk (Urea, NPK, dll).
+AlatPertanian.java → atribut tambahan: material (baja, kayu, plastik).
+Membuat Main Class
+
+Instansiasi minimal satu objek dari tiap subclass.
+Tampilkan data produk dengan memanfaatkan inheritance.
+Menambahkan CreditBy
+
+Panggil class CreditBy untuk menampilkan identitas mahasiswa.
+Commit dan Push
+
+Commit dengan pesan: week3-inheritance.
 
 ---
 
