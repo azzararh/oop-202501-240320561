@@ -1,5 +1,5 @@
-# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
-Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
+# Laporan Praktikum Minggu 4 
+Topik: Polymorphism
 
 ## Identitas
 - Nama  : [Azzahra Ramadhani]
