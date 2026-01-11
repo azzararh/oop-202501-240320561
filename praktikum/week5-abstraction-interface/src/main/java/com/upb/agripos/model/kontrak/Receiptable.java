@@ -1,4 +1,4 @@
-package com.upb.agripos.model.kontrak;
+package model.kontrak;
 
 public interface Receiptable {
     String cetakStruk();
