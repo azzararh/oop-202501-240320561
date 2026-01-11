@@ -1,6 +1,6 @@
-package model.pembayaran;
+package com.upb.agripos.model.pembayaran;
 
-import com.upb.agripos.model.kontrak.Receptiptable;
+import model.kontrak.Receiptable;
 
 public class Cash extends Pembayaran implements Receiptable {
     private double tunai;

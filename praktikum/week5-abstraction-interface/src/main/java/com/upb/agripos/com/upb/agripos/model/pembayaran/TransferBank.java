@@ -1,7 +1,6 @@
 package com.upb.agripos.model.pembayaran;
 
 import com.upb.agripos.model.kontrak.Validatable;
-import com.upb.agripos.model.kontrak.Receiptable;
 
 public class TransferBank extends Pembayaran implements Validatable, Receiptable {
     private String namaBank;
