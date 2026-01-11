@@ -1,9 +1,8 @@
-import model.kontrak.Receiptable;
-import model.pembayaran.Cash;
-import model.pembayaran.EWallet;
-import model.pembayaran.Pembayaran;
-import model.pembayaran.TransferBank;
-import util.CreditBy;
+import com.upb.agripos.model.pembayaran.Cash;
+import com.upb.agripos.model.pembayaran.EWallet;
+import com.upb.agripos.model.pembayaran.Pembayaran;
+import com.upb.agripos.model.pembayaran.TransferBank;
+import com.upb.agripos.util.CreditBy;
 
 public class MainAbstraction {
     public static void main(String[] args) {
