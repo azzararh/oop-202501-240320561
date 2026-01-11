@@ -21,26 +21,25 @@ Mahasiswa mampu:
 ---
 
 ## Dasar Teori
-(
+
 1. Collections Framework 
 Java Collections Framework menyediakan struktur data untuk mengelola objek secara dinamis dan efisien.
 
 Struktur utama:
 
-List (implementasi: ArrayList) — Terurut, dapat menyimpan elemen duplikat.
-Map (implementasi: HashMap) — Menyimpan pasangan key–value, akses cepat berdasarkan key.
-Set (implementasi: HashSet) — Tidak menerima duplikat dan tidak mempertahankan urutan.
+- List (implementasi: ArrayList) — Terurut, dapat menyimpan elemen duplikat.
+- Map (implementasi: HashMap) — Menyimpan pasangan key–value, akses cepat berdasarkan key.
+- Set (implementasi: HashSet) — Tidak menerima duplikat dan tidak mempertahankan urutan.
 
 2. Studi Kasus: Keranjang Belanja Agri-POS
 Keranjang belanja harus dapat:
+- Menambahkan produk
+- Menghapus produk
+- Menampilkan isi keranjang
+- Menghitung total nilai transaksi
+- Menangani jumlah (quantity) menggunakan Map
+- Kasus ini mencerminkan penggunaan struktur data dalam aplikasi nyata seperti POS.
 
-Menambahkan produk
-Menghapus produk
-Menampilkan isi keranjang
-Menghitung total nilai transaksi
-Menangani jumlah (quantity) menggunakan Map
-Kasus ini mencerminkan penggunaan struktur data dalam aplikasi nyata seperti POS.
-)
 ---
 
 ## Langkah Praktikum
@@ -81,7 +80,7 @@ public class MainCart {
 ---
 
 ## Analisis
-(
+
 - Jelaskan bagaimana kode berjalan. 
  Program dimulai dari kelas MainCart yang memiliki method main() sebagai titik awal eksekusi. Pada awal program, sistem menampilkan identitas praktikan sebagai penanda eksekusi program. Selanjutnya, dibuat dua buah objek Product yang merepresentasikan produk dengan atribut kode produk, nama produk, dan harga. Objek-objek ini kemudian dimasukkan ke dalam objek ShoppingCart yang berfungsi sebagai keranjang belanja. Kelas ShoppingCart menggunakan struktur Collection (List atau Map) untuk menyimpan kumpulan objek Product. Method addProduct() digunakan untuk menambahkan produk ke dalam keranjang, sedangkan printCart() menampilkan daftar produk yang ada di dalam keranjang. Setelah itu, salah satu produk dihapus menggunakan method removeProduct(). Dengan demikian, program menunjukkan proses manipulasi data koleksi berupa penambahan, penampilan, dan penghapusan objek secara dinamis selama runtime.
 - Apa perbedaan pendekatan minggu ini dibanding minggu sebelumnya.  
