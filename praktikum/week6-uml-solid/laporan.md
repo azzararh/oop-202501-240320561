@@ -26,12 +26,15 @@ Setiap iterasi lakukan commit incremental dengan pesan: week6-uml-solid: iterasi
 ---
 
 ## Deskripsi Sistem Agri-POS
+
 Agri-POS adalah sistem Point of Sale untuk toko pertanian yang mendukung manajemen produk, transaksi penjualan, metode pembayaran fleksibel (tunai & e-wallet), pencetakan struk, laporan penjualan, serta pengaturan hak akses (kasir & admin). Desain difokuskan pada kemudahan perawatan, perluasan fitur, dan konsistensi arsitektur dengan prinsip SOLID.
+
 ---
 
 ## Penjelasan tiap diagram
 1. Use Case Diagram
 
+![Usecase Diagram](docs/uml%20Agri-POS-use%20case.png)
 
 Fungsi: Use Case Diagram digunakan untuk menggambarkan fungsi-fungsi utama sistem serta interaksi antara aktor dengan sistem Agri-POS. Diagram ini menunjukkan apa saja yang dapat dilakukan oleh pengguna tanpa menjelaskan bagaimana proses tersebut dijalankan secara detail.Pada sistem Agri-POS, aktor utama terdiri dari Kasir dan Admin. Kasir berinteraksi dengan sistem untuk melakukan proses penjualan, sedangkan Admin berfokus pada pengelolaan data dan laporan.
 
@@ -53,6 +56,8 @@ Direpresentasikan struktur kelas dan relasinya pada Class Diagram
 
 2. Activity Diagram
 
+![Activity Diagram](docs/uml%20Agri-POS-activity%20diagram.png)
+
 Fungsi: Activity Diagram digunakan untuk menggambarkan alur proses atau aliran kerja sistem secara berurutan dari awal hingga akhir. Diagram ini menunjukkan langkah-langkah aktivitas, percabangan keputusan, serta kondisi sukses dan gagal dalam proses bisnis.
 
 Pada sistem Agri-POS, Activity Diagram menggambarkan proses checkout, yang meliputi:
@@ -72,6 +77,8 @@ Setiap aktivitas pada diagram ini kemudian diterjemahkan menjadi pesan (message)
 Aktivitas yang berhubungan dengan logika sistem menjadi acuan dalam penentuan method pada Class Diagram.
 
 3. Sequence Diagram
+
+![Sequence Diagram](docs/uml%20Agri-POS-sequence%20diagram.png)
 
 Fungsi: Sequence Diagram digunakan untuk menggambarkan urutan interaksi antar objek atau komponen sistem berdasarkan waktu. Diagram ini menampilkan bagaimana pesan dikirim dan diterima antar objek untuk merealisasikan suatu proses.
 
@@ -93,27 +100,29 @@ Setiap pesan pada Sequence Diagram harus memiliki representasi method pada Class
 
 4. Class Diagram
 
+![Class Diagram](docs/uml%20Agri-POS-class%20diagram.png)
+
 Fungsi: Class Diagram digunakan untuk menggambarkan struktur statis sistem, yang meliputi kelas, atribut, method, serta hubungan antar kelas. Diagram ini menjadi blueprint untuk implementasi sistem dalam bentuk kode program. Pada sistem Agri-POS, Class Diagram mencakup kelas-kelas utama seperti:
 
-Kasir
-Transaksi
-Keranjang dan KeranjangItem
-Produk
-Pembayaran (Tunai dan E-Wallet)
-Payment Gateway
-Struk
-Diagram ini juga menunjukkan:
-
-Pewarisan (inheritance)
-Asosiasi
-Multiplicity (kardinalitas)
-Prinsip pemisahan tanggung jawab antar kelas
-Keterkaitan dengan Diagram Lain
+- Kasir
+- Transaksi
+- Keranjang dan KeranjangItem
+- Produk
+- Pembayaran (Tunai dan E-Wallet)
+- Payment Gateway
+- Struk
+- Diagram ini juga menunjukkan:
+   - Pewarisan (inheritance)
+   - Asosiasi
+   - Multiplicity (kardinalitas)
+   - Prinsip pemisahan tanggung jawab antar kelas
+   - Keterkaitan dengan Diagram Lain
 
 Class Diagram merupakan hasil akhir dari seluruh perancangan diagram.
 Use Case menentukan kelas apa saja yang dibutuhkan.
 Activity dan Sequence Diagram menentukan method dan interaksi antar kelas.
 Class Diagram memastikan sistem dapat diimplementasikan secara terstruktur dan konsisten.
+
 ---
 
 
@@ -126,7 +135,7 @@ Adapun potensi pengembangan sistem Agri-POS di masa mendatang antara lain integr
 ---
 
 ## Quiz
-(1. [Jelaskan perbedaan **aggregation** dan **composition** serta berikan contoh penerapannya pada desain Anda.n]  
+1. [Jelaskan perbedaan **aggregation** dan **composition** serta berikan contoh penerapannya pada desain Anda.n]  
    **Jawaban:** Aggregation dan composition merupakan jenis relasi whole–part dalam UML yang membedakan tingkat ketergantungan objek. Aggregation menunjukkan hubungan kepemilikan yang lemah, di mana objek bagian masih dapat berdiri sendiri meskipun objek induknya tidak ada. Sebaliknya, composition menunjukkan hubungan kepemilikan yang kuat, di mana keberadaan objek bagian sepenuhnya bergantung pada objek induk. Pada desain sistem Agri-POS, relasi antara Transaksi dan Keranjang atau Struk merupakan contoh composition, karena keranjang dan struk hanya ada ketika transaksi dibuat dan akan hilang ketika transaksi dihapus. Sementara itu, relasi antara Admin dan Produk merupakan contoh aggregation, karena produk tetap dapat ada dan dikelola meskipun tidak ada aktivitas admin tertentu yang sedang berlangsung.
 
 2. [Bagaimana prinsip **Open/Closed** dapat memastikan sistem mudah dikembangkan]  
