@@ -116,6 +116,9 @@ public class ProductTest {
 ## Hasil Eksekusi
 Run App MVC
 ![alt text](image.png)
+
+Run Testing
+![alt text](image-1.png)
 ---
 
 ## Analisis
