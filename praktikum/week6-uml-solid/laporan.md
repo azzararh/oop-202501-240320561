@@ -1,4 +1,4 @@
-# Laporan Praktikum Minggu 6 (sesuaikan minggu ke berapa?)
+# Laporan Praktikum Minggu 6 
 Topik: [uml-solid]
 
 ## Identitas

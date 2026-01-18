@@ -262,10 +262,12 @@ public class MainDAOTest {
 
 ## Hasil Eksekusi
 Program berhasil dijalankan dengan hasil sebagai berikut:
-- Run Main Program
+
+- Run Main Program:
 ![alt text](image.png)
 
--Hasil testing
+- Hasil testing:
+![alt text](image-1.png)
 
 
 - **CREATE**: Data produk berhasil ditambahkan ke database
