@@ -86,7 +86,13 @@ public class AppJavaFX extends Application {
 
 ## Hasil Eksekusi
 (Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil]()
+
+- Screenshoot output
+![Screenshot hasil](Screenshots/output.png)
+
+- screenshoot testing
+![Screenshot hasil](Screenshots/Testing.png)
+
 )
 ---
 
