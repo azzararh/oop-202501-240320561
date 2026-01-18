@@ -1,10 +1,10 @@
-# Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
-Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
+# Laporan Praktikum Minggu 12
+Topik: Gui Dasar
 
 ## Identitas
-- Nama  : [Nama Mahasiswa]
-- NIM   : [NIM Mahasiswa]
-- Kelas : [Kelas]
+- Nama  : Azzahra Ramadhani
+- NIM   : 240320561
+- Kelas : 3DSRA
 
 ---
 
